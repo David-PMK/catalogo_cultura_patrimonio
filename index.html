@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es" prefix="dcat: http://www.w3.org/ns/dcat# dct: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ schema: http://schema.org/">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catálogo DCAT de los conjuntos de datos de Cuenca</title>
+  <style>
+  body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f9f9f9; color: #222; }
+  header, main { max-width: 1100px; margin: 0 auto; padding: 24px; }
+  header { background: #114b8c; color: white; }
+  h1, h2 { margin: 0 0 12px 0; }
+  .dataset { background: white; border-radius: 10px; padding: 20px; margin-bottom: 20px; box-shadow: 0 2px 12px rgba(0,0,0,.08); }
+  .meta { display: grid; grid-template-columns: repeat(auto-fit,minmax(220px,1fr)); gap: 10px; margin: 14px 0; }
+  .meta div { background: #eef4fb; padding: 10px; border-radius: 6px; }
+  .tags { margin-top: 10px; }
+  .tag { display: inline-block; margin: 0 8px 8px 0; padding: 6px 10px; background: #114b8c; color: white; border-radius: 999px; font-size: .9rem; text-decoration: none; }
+  a.button { display: inline-block; margin-top: 12px; padding: 10px 16px; background: #0077cc; color: white; border-radius: 6px; text-decoration: none; }
+  .resources ul { margin: 0; padding-left: 1.2rem; }
+  .resources li { margin-bottom: 8px; }
+  </style>
+</head>
+<body about="." typeof="dcat:Catalog">
+  <header>
+    <h1 property="dct:title">Catálogo DCAT de los conjuntos de datos de Cuenca</h1>
+    <p property="dct:description">Resumen DCAT de los 7 conjuntos de datos descargados desde Cuenca en Datos.</p>
+  </header>
+  <main>
+    <article class="dataset" typeof="dcat:Dataset">
+      <h2 property="dct:title">Agenda Cultural</h2>
+      <p property="dct:description">Proporciona la agenda cultural donde se encontrará los eventos culturales más relevantes de la ciudad de Cuenca</p>
+      <p><a property="dcat:landingPage" href="Agenda Cultural - Conjunto de datos - Cuenca en Datos.html">Página local</a></p>
+      <div class="meta">
+        <div><strong>Autor</strong><br><span property="dct:creator">Dirección General de Cultura, Recreación y Conocimiento</span></div>
+        <div><strong>Mantenedor</strong><br><span property="dct:contributor">Dirección General de Cultura, Recreación y Conocimiento</span></div>
+        <div><strong>Creado</strong><br><time property="dct:issued">19 de marzo de 2025, 15:29 (UTC-05:00)</time></div>
+        <div><strong>Última actualización</strong><br><time property="dct:modified">27 de enero de 2026, 16:25 (UTC-05:00)</time></div>
+      </div>
+      <div class="tags">
+        <span class="tag" property="dcat:keyword">agenda</span>
+        <span class="tag" property="dcat:keyword">cultural</span>
+        <span class="tag" property="dcat:keyword">eventos</span>
+      </div>
+      <div class="resources">
+        <h3>Recursos</h3>
+        <ul>
+          <li typeof="dcat:Distribution"><a property="dcat:accessURL" href="https://cuencaendatos.cuenca.gob.ec/dataset/agenda-cultural/resource/38436027-ae09-41b7-8420-a4d45859d251" target="_blank">Agenda CulturalURL</a></li>
+        </ul>
+      </div>
+    </article>
+    <article class="dataset" typeof="dcat:Dataset">
+      <h2 property="dct:title">Arboles Patrimoniales</h2>
+      <p property="dct:description">Detalle de los árboles registrados como patrimonio de la ciudad de Cuenca con corte a septiembre del 2022</p>
+      <p><a property="dcat:landingPage" href="Arboles Patrimoniales - Conjunto de datos - Cuenca en Datos.html">Página local</a></p>
+      <div class="meta">
+        <div><strong>Mantenedor</strong><br><span property="dct:contributor">Unidad de Transparencia</span></div>
+        <div><strong>Creado</strong><br><time property="dct:issued">20 de octubre de 2022, 12:07 (UTC-05:00)</time></div>
+        <div><strong>Última actualización</strong><br><time property="dct:modified">10 de enero de 2023, 12:07 (UTC-05:00)</time></div>
+      </div>
+      <div class="tags">
+        <span class="tag" property="dcat:keyword">arboles</span>
+        <span class="tag" property="dcat:keyword">patrimonio</span>
+      </div>
+      <div class="resources">
+        <h3>Recursos</h3>
+        <ul>
+          <li typeof="dcat:Distribution"><a property="dcat:accessURL" href="https://cuencaendatos.cuenca.gob.ec/dataset/arboles-patrimoniales/resource/1b8bfd61-4146-46ca-b075-2773fb4adf8a" target="_blank">GADCuenca_ArbolesPatrimoniales_2022Septiembre.csvCSV</a></li>
+          <li typeof="dcat:Distribution"><a property="dcat:accessURL" href="https://cuencaendatos.cuenca.gob.ec/dataset/arboles-patrimoniales/resource/53ca0b31-f74d-4aa4-88c1-8a0701aadfb0" target="_blank">GADCuenca_ArbolesPatrimoniales_DD_2022septiembre.odsODS</a></li>
+          <li typeof="dcat:Distribution"><a property="dcat:accessURL" href="https://cuencaendatos.cuenca.gob.ec/dataset/arboles-patrimoniales/resource/6f636ecd-ee12-4f63-8a0b-1199f88b2885" target="_blank">GADCuenca_ArbolesPatrimoniales_PM_2022septiembre.odsODS</a></li>
+        </ul>
+      </div>
+    </article>
+    <article class="dataset" typeof="dcat:Dataset">
+      <h2 property="dct:title">Casas Patrimoniales Municipales</h2>
+      <p property="dct:description">Proporciona información de casas que forman parte del patrimonio del  municipio de Cuenca.</p>
+      <p><a property="dcat:landingPage" href="Casas Patrimoniales Municipales - Conjunto de datos - Cuenca en Datos.html">Página local</a></p>
+      <div class="meta">
+        <div><strong>Autor</strong><br><span property="dct:creator">Dirección General de Cultura, Recreación y Conocimiento</span></div>
+        <div><strong>Mantenedor</strong><br><span property="dct:contributor">Dirección General de Cultura, Recreación y Conocimiento</span></div>
+        <div><strong>Creado</strong><br><time property="dct:issued">19 de marzo de 2025, 15:42 (UTC-05:00)</time></div>
+        <div><strong>Última actualización</strong><br><time property="dct:modified">27 de enero de 2026, 16:33 (UTC-05:00)</time></div>
+      </div>
+      <div class="tags">
+        <span class="tag" property="dcat:keyword">casas</span>
+        <span class="tag" property="dcat:keyword">municipio</span>
+        <span class="tag" property="dcat:keyword">patrimonio</span>
+      </div>
+      <div class="resources">
+        <h3>Recursos</h3>
+        <ul>
+          <li typeof="dcat:Distribution"><a property="dcat:accessURL" href="https://cuencaendatos.cuenca.gob.ec/dataset/casas-patrimoniales-municipales/resource/7897342c-9681-4849-9347-90f5a7b71178" target="_blank">Casas Patrimoniales MunicipalesURL</a></li>
+        </ul>
+      </div>
+    </article>
+    <article class="dataset" typeof="dcat:Dataset">
+      <h2 property="dct:title">Directorio de Bienes y Servicios Creativos</h2>
+      <p property="dct:description">Página web que proporciona directorio de bienes y servicios que contiene información de contacto de todos los artistas, diseñadores y gestores culturales de la ciudad de Cuenca.</p>
+      <p><a property="dcat:landingPage" href="Directorio de Bienes y Servicios Creativos - Conjunto de datos - Cuenca en Datos.html">Página local</a></p>
+      <div class="meta">
+        <div><strong>Autor</strong><br><span property="dct:creator">Dirección General de Cultura, Recreación y Conocimiento</span></div>
+        <div><strong>Mantenedor</strong><br><span property="dct:contributor">Dirección General de Cultura, Recreación y Conocimiento</span></div>
+        <div><strong>Creado</strong><br><time property="dct:issued">19 de marzo de 2025, 15:03 (UTC-05:00)</time></div>
+        <div><strong>Última actualización</strong><br><time property="dct:modified">27 de enero de 2026, 16:28 (UTC-05:00)</time></div>
+      </div>
+      <div class="tags">
+        <span class="tag" property="dcat:keyword">bienes y servicios</span>
+        <span class="tag" property="dcat:keyword">creativos</span>
+        <span class="tag" property="dcat:keyword">directorios</span>
+      </div>
+      <div class="resources">
+        <h3>Recursos</h3>
+        <ul>
+          <li typeof="dcat:Distribution"><a property="dcat:accessURL" href="https://cuencaendatos.cuenca.gob.ec/dataset/directorio-de-bienes-y-servicios-creativos/resource/42931444-fcd2-4421-86f1-9b9fa7c524fa" target="_blank">Directorio de Bienes y Servicios CreativosURL</a></li>
+        </ul>
+      </div>
+    </article>
+    <article class="dataset" typeof="dcat:Dataset">
+      <h2 property="dct:title">Edificaciones Patrimoniales</h2>
+      <p property="dct:description">Detalle de edificaciones patrimoniales relevantes del centro histórico de la ciudad de Cuenca con corte a septiembre del 2022</p>
+      <p><a property="dcat:landingPage" href="Edificaciones Patrimoniales - Conjunto de datos - Cuenca en Datos.html">Página local</a></p>
+      <div class="meta">
+        <div><strong>Mantenedor</strong><br><span property="dct:contributor">Unidad de Transparencia</span></div>
+        <div><strong>Creado</strong><br><time property="dct:issued">20 de octubre de 2022, 12:15 (UTC-05:00)</time></div>
+        <div><strong>Última actualización</strong><br><time property="dct:modified">21 de julio de 2025, 12:15 (UTC-05:00)</time></div>
+      </div>
+      <div class="tags">
+        <span class="tag" property="dcat:keyword">bienes patrimoniales</span>
+        <span class="tag" property="dcat:keyword">casas</span>
+        <span class="tag" property="dcat:keyword">patrimonio</span>
+      </div>
+      <div class="resources">
+        <h3>Recursos</h3>
+        <ul>
+          <li typeof="dcat:Distribution"><a property="dcat:accessURL" href="https://cuencaendatos.cuenca.gob.ec/dataset/edificaciones-patrimoniales/resource/7aa08f3f-75a9-46b7-ba85-1f769dcb6dd7" target="_blank">GADCuenca_EdificacionesPatrimoniales_2025Junio.csvCSV</a></li>
+          <li typeof="dcat:Distribution"><a property="dcat:accessURL" href="https://cuencaendatos.cuenca.gob.ec/dataset/edificaciones-patrimoniales/resource/a8b13e6c-e9b1-4cb4-b4a3-282e51c90a92" target="_blank">GADCuenca_EdificacionesPatrimoniales_DD_2025Junio.odsODS</a></li>
+          <li typeof="dcat:Distribution"><a property="dcat:accessURL" href="https://cuencaendatos.cuenca.gob.ec/dataset/edificaciones-patrimoniales/resource/5663ad7f-10c0-455d-8088-11f6fb6be99d" target="_blank">GADCuenca_EdificacionesPatrimoniales_PM_2025Junio.odsODS</a></li>
+          <li typeof="dcat:Distribution"><a property="dcat:accessURL" href="https://cuencaendatos.cuenca.gob.ec/dataset/edificaciones-patrimoniales/resource/55b6d7e3-aa30-427d-a94a-4bf0c57a0b8a" target="_blank">GADCuenca_EdificacionesPatrimoniales_2022Septiembre.csvCSV</a></li>
+          <li typeof="dcat:Distribution"><a property="dcat:accessURL" href="https://cuencaendatos.cuenca.gob.ec/dataset/edificaciones-patrimoniales/resource/7d04c5d7-3dd6-4cdd-bc13-d5e82fe6680c" target="_blank">GADCuenca_EdificacionesPatrimoniales_DD_2022Sep...ODS</a></li>
+          <li typeof="dcat:Distribution"><a property="dcat:accessURL" href="https://cuencaendatos.cuenca.gob.ec/dataset/edificaciones-patrimoniales/resource/b9d54107-5327-4f04-b397-6ad38369e553" target="_blank">GADCuenca_EdificacionesPatrimoniales_PM_2022Sep...ODS</a></li>
+        </ul>
+      </div>
+    </article>
+    <article class="dataset" typeof="dcat:Dataset">
+      <h2 property="dct:title">Emblemas Patrimoniales</h2>
+      <p property="dct:description">Detalle de edificaciones patrimoniales emblemáticas de la ciudad de Cuenca con corte a septiembre del 2022</p>
+      <p><a property="dcat:landingPage" href="Emblemas Patrimoniales - Conjunto de datos - Cuenca en Datos.html">Página local</a></p>
+      <div class="meta">
+        <div><strong>Mantenedor</strong><br><span property="dct:contributor">Unidad de Transparencia</span></div>
+        <div><strong>Creado</strong><br><time property="dct:issued">20 de octubre de 2022, 13:55 (UTC-05:00)</time></div>
+        <div><strong>Última actualización</strong><br><time property="dct:modified">2 de marzo de 2023, 10:56 (UTC-05:00)</time></div>
+      </div>
+      <div class="tags">
+        <span class="tag" property="dcat:keyword">edificaciones</span>
+        <span class="tag" property="dcat:keyword">patrimonio</span>
+      </div>
+      <div class="resources">
+        <h3>Recursos</h3>
+        <ul>
+          <li typeof="dcat:Distribution"><a property="dcat:accessURL" href="https://cuencaendatos.cuenca.gob.ec/dataset/emblemas-patrimoniales/resource/9a7c4b2e-1902-40bc-a631-aebbffbf8e3e" target="_blank">GADCuenca_EmblemasPatrimoniales_2022Septiembre.csvCSV</a></li>
+          <li typeof="dcat:Distribution"><a property="dcat:accessURL" href="https://cuencaendatos.cuenca.gob.ec/dataset/emblemas-patrimoniales/resource/2f8587b4-6413-4725-95a0-34a41789589a" target="_blank">GADCuenca_EmblemasPatrimoniales_DD_2022Septiembre.odsODS</a></li>
+          <li typeof="dcat:Distribution"><a property="dcat:accessURL" href="https://cuencaendatos.cuenca.gob.ec/dataset/emblemas-patrimoniales/resource/698a457c-93ca-4b98-8bf4-356dc25148dc" target="_blank">GADCuenca_EmblemasPatrimoniales_PM_2022Septiembre.odsODS</a></li>
+        </ul>
+      </div>
+    </article>
+    <article class="dataset" typeof="dcat:Dataset">
+      <h2 property="dct:title">Fotogrametría Arquitectural del Patrimonio de Cuenca</h2>
+      <p property="dct:description">Modelos 3D de fachadas patrimoniales de Cuenca a partir de fotografías, aplicando técnicas fotogramétricas para corregir y rectificar imágenes, logrando representaciones precisas y detalladas a escala.</p>
+      <p><a property="dcat:landingPage" href="Fotogrametría Arquitectural del Patrimonio de Cuenca - Conjunto de datos - Cuenca en Datos.html">Página local</a></p>
+      <div class="meta">
+        <div><strong>Autor</strong><br><span property="dct:creator">IERSE-Universidad del Azuay</span></div>
+        <div><strong>Mantenedor</strong><br><span property="dct:contributor">IERSE-Universidad del Azuay</span></div>
+        <div><strong>Creado</strong><br><time property="dct:issued">28 de marzo de 2025, 16:06 (UTC-05:00)</time></div>
+        <div><strong>Última actualización</strong><br><time property="dct:modified">26 de enero de 2026, 14:56 (UTC-05:00)</time></div>
+      </div>
+      <div class="tags">
+        <span class="tag" property="dcat:keyword">fachadas</span>
+        <span class="tag" property="dcat:keyword">fotografias</span>
+        <span class="tag" property="dcat:keyword">patrimoniales</span>
+      </div>
+      <div class="resources">
+        <h3>Recursos</h3>
+        <ul>
+          <li typeof="dcat:Distribution"><a property="dcat:accessURL" href="https://cuencaendatos.cuenca.gob.ec/dataset/fotogrametria-arquitectural-del-patrimonio-de-cuenca/resource/387d3f5f-a267-4271-8072-be30791ce0f9" target="_blank">Fotogrametría Arquitectural del Patrimonio de CuencaURL</a></li>
+        </ul>
+      </div>
+    </article>
+  </main>
+</body>
+</html>
